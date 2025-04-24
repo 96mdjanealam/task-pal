@@ -6,7 +6,7 @@ export default function EditTaskModal({ isOpen, onClose, task, onEdit }) {
   return (
     <div
       onClick={onClose}
-      className=" fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+      className=" fixed inset-0 p-4 bg-black/50 flex items-center justify-center z-50"
     >
       <div
         onClick={(e) => e.stopPropagation()}
