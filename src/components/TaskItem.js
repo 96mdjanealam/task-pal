@@ -6,7 +6,7 @@ export default function TaskItem({ task, onEdit, onDelete, onToggleCompletion })
 
   return (
     <li className="p-4 bg-gray-100 rounded-md shadow-sm">
-      <h3 className="text-lg font-bold">{task.title}</h3>
+      <h3 className="text-lg text-gray-900 font-bold">{task.title}</h3>
       <p className="text-gray-600">{task.description}</p>
       <p className="text-sm text-gray-500">
         Status: {task.completed ? 'Completed' : 'Pending'}

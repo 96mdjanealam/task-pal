@@ -14,7 +14,7 @@ export default function TaskList({ tasks, onEdit, onDelete, onToggleCompletion }
           />
         ))
       ) : (
-        <p className="text-gray-600">No tasks found in this category.</p>
+        <p className="text-gray-600">No tasks found.</p>
       )}
     </ul>
   );
