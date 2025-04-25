@@ -54,7 +54,7 @@ export default function TaskManager() {
     <div className="min-h-screen bg-gradient-to-br from-sky-50 to-white p-6">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-blue-700 mb-6 text-center">
-          Task Manager
+          Task Pal
         </h1>
 
         {/* Controls */}
@@ -63,7 +63,7 @@ export default function TaskManager() {
             onClick={() => setIsAddTaskModalOpen(true)}
             className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md shadow transition cursor-pointer"
           >
-            + Add A Task
+            Add A Task +
           </button>
 
           <input
